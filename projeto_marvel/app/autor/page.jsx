@@ -32,9 +32,9 @@ export default function Autor() {
       <br />
       <div className={style.texto1}>
         <p>
-          A Marvel Comics, originalmente conhecida como Timely Publications, foi
+          A <i>Marvel Comics</i>, originalmente conhecida como <i>Timely Publications</i>, foi
           fundada em 1939 pelo editor Martin Goodman. A empresa foi renomeada
-          como Marvel Comics na década de 1960, quando iniciou sua era de maior
+          como <i>Marvel Comics</i> na década de 1960, quando iniciou sua era de maior
           sucesso sob a liderança de Stan Lee, Jack Kirby, Steve Ditko e outros
           talentosos criadores.
           <br />
