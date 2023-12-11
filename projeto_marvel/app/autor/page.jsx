@@ -27,7 +27,7 @@ export default function Autor() {
       </div>
 
       <div className={style.title}>
-        <h2>Quem criou a Marvel?</h2>
+        <h2>QUEM CRIOU A MARVEL?</h2>
       </div>
       <br />
       <div className={style.texto1}>

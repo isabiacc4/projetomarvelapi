@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   color: aliceblue;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Georgia', 'Times New Roman', Times, serif;
   border: 1px solid black;
 }
 
@@ -12,6 +12,7 @@
   margin: 2% 10%;
   font-size: large;
   padding: 2%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
