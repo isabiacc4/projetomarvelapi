@@ -1,69 +1,105 @@
-.title{
+.title {
   background-color: #ee0303;
   padding: 2%;
   display: flex;
   justify-content: center;
-  color: aliceblue;
-  font-family:'Georgia', 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   border: 1px solid black;
 }
 
-.texto1, .texto2{
+.texto1,
+.texto2 {
   margin: 2% 10%;
   font-size: large;
   padding: 2%;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: 0 auto;
+}
 
-.cards{
+.video > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.figcaption {
+  background: #850000;
+  text-align: center;
+  font-size: larger;
+  color: white;
+  padding: 3%;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #ee0303;
   padding: 2%;
   border: 1px solid black;
-
 }
 
 .flipcard {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-  }
-  
-  .flipcardinner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.401);
-  }
-  
-  .flipcard:hover .flipcardinner {
-    transform: rotateY(180deg);
-  }
-  
-  .flipcardfront, .flipcardback {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flipcardfront {
-    background-color: #bbb;
-    color: black;
-
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
 }
-  
-  .flipcardback {
-    background-color: #bb9603;
-    color: white;
-    transform: rotateY(180deg);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.flipcardinner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.401);
+}
+
+.flipcard:hover .flipcardinner {
+  transform: rotateY(180deg);
+}
+
+.flipcardfront,
+.flipcardback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipcardfront {
+  background-color: #bbb;
+  color: black;
+}
+
+.flipcardback {
+  background-color: #bb9603;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media screen and (max-width: 345px) {
+  .title {
+    font-size: 0.9em;
+    padding: 2%;
   }
+
+  .figcaption{
+    font-size: 1em;
+  }
+}

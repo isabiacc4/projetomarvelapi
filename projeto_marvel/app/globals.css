@@ -35,12 +35,16 @@ button{
   padding: 5%;
 }
 
-
 @media screen and (max-width: 480px){
 
   .cabecalho{
     display: flex;
     flex-direction: column;
+  }
+
+  .nav{
+    font-size: 1em;
+    width: 90%;
   }
 
 }
