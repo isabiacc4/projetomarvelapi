@@ -3,6 +3,8 @@ import style from "@/app/autor/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
+
+
 export default function Autor() {
   return (
     <div>
@@ -27,8 +29,9 @@ export default function Autor() {
       </div>
 
       <div className={style.title}>
-        <h2>Quem criou a Marvel?</h2>
+        <h2>QUEM CRIOU A MARVEL?</h2>
       </div>
+
       <br />
       <div className={style.texto1}>
         <p>
