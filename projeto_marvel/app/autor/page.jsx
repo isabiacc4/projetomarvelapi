@@ -3,14 +3,12 @@ import style from "@/app/autor/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-
-
 export default function Autor() {
   return (
     <div>
       <div className="cabecalho">
         <Link href="/" className="link">
-          <Image src="/logogrupo.png" alt="Home" width={240} height={50}/>
+          <Image src="/logogrupo.png" alt="Home" width={240} height={50} />
         </Link>
 
         <div className="nav">
@@ -25,7 +23,6 @@ export default function Autor() {
             <button className="button">EQUIPE</button>
           </Link>
         </div>
-
       </div>
 
       <div className={style.title}>
@@ -121,7 +118,25 @@ export default function Autor() {
       </div>
       <br />
       <br />
+      <figcaption className={style.figcaption}>Confira a seguir um vídeo sobre a história da Marvel</figcaption>
+      <br />
+      <br />
 
+      <div className={style.video}>
+      <iframe
+        width="800"
+        height="400"
+        src="https://www.youtube.com/embed/3PMdtNYihv8"
+        title="COMO SURGIU A MARVEL | A HISTÓRIA DA MARVEL"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      />
+      
+      </div>
+    
+
+      <br />
       <Footer />
     </div>
   );

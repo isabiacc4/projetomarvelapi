@@ -43,4 +43,9 @@ button{
     flex-direction: column;
   }
 
+  .nav{
+    font-size: 1em;
+    width: 90%;
+  }
+
 }
