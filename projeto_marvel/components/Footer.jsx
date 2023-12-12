@@ -3,7 +3,7 @@ import Image from "next/image";
 import style from "@/app/page.module.css";
 import Link from "next/link";
 
-function Header() {
+function Footer() {
   return (
     <div className={style.rodape}>
       <div className={style.rodape_bloco1}>
@@ -48,4 +48,4 @@ function Header() {
     </div>
   );
 }
-export default Header;
+export default Footer;
