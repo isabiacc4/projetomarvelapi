@@ -5,6 +5,7 @@ import Image from "next/image";
 import style from "@/app/page.module.css";
 import Link from "next/link";
 
+
 function Footer() {
   return (
     <div className={style.rodape}>
