@@ -12,10 +12,10 @@ export default function Autor() {
         </Link>
 
         <div className="nav">
-          <Link href="/" className="link">
+          <Link href="/producoes" className="link">
             Produções
           </Link>
-          <Link href="/" className="link">
+          <Link href="/expositiva" className="link">
             Personagens
           </Link>
 

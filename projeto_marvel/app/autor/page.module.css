@@ -40,6 +40,8 @@
   padding: 3%;
   font-weight: 800;
   font-size: 1.7rem;
+  border: 1px solid black;
+
 }
 
 .cards {
