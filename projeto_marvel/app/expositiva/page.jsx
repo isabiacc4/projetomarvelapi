@@ -37,7 +37,7 @@ const Home = () => {
   }, []);
 
   return (
-   <div>
+   <div className={style.corpo}>
      <div className="cabecalho">
         <Link href="/" className="link">
           <Image src="/logogrupo.png" alt="Home" width={240} height={50} />
@@ -57,9 +57,38 @@ const Home = () => {
         </div>
       </div>
       <br/>
-    <h1 className={style.title}>Personagens do Universo Marvel</h1>
-    <p>Selecione um desses personagens para obter informações mais detalhadas sobre eles</p>
+    <h1 className={style.titulo}>Personagens do Universo Marvel</h1>
     <br/>
+    <br/>
+    <p className={style.text}>Selecione um desses personagens para obter informações mais detalhadas sobre eles</p>
+    <br/>
+    <br/>
+
+    <form action="/" className={style.form}>
+      <label>Escolha um personagem: </label><br/>
+      <select name="characters" id="characters" className={style.select}>
+        <option></option>
+        <option>Okoye (Dora Milaje)</option>
+        <option>T'Challa (Pantera Negra)</option>
+        <option>Stephen Vincent Strange(Doutor Estranho)</option>
+        <option>Wanda Maximoff (Feiticeira Escarlate)</option>
+      </select>
+      <br/>
+  <input type="submit" value="Submit"/>
+
+    </form>
+
+    {/* <form action="/"> 
+<label>Choose a charcter: </label>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br/>
+  <input type="submit" value="Submit"/>
+</form> */}
     <Footer/>
    </div>
   );
