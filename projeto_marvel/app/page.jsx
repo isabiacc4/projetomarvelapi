@@ -1,14 +1,33 @@
 'use client'
 import Footer from "@/components/Footer"
 import Style from '@/app/page.module.css'
+import Link from "next/link";
+import Image from "next/image";
+
 
 export default function Home() {
   return (
     <section>
-      <header>
-        {/* <Header /> */}
-      </header>
+     <>
+     <div className="cabecalho">
+      <Link href="/">
+      <Image src="/logogrupo.png" alt="Home" width={240} height={50} />
+      </Link>
 
+      <div className="nav">
+        <Link href="/autor" className="link">Autores</Link>
+
+        <Link href="/producoes" className="link">Produções</Link>
+
+        <Link href="/expositiva" className="link">Personagens</Link>
+
+        <Link href="/equipe" className="link">
+          <button className="button">EQUIPE</button>
+        </Link>
+      </div>
+
+     </div>
+     </>
 
       <div className={Style.parallax}/>
       <div className={Style.centered}> API DA MARVEL</div>
@@ -18,8 +37,6 @@ export default function Home() {
     <div className={Style.T1}>
       <h2>O que é API?</h2>
       <hr size="2" width="50%" align="left" color="black"/>
-      <br/>
-      <br/>
       </div>
       
       <div className={Style.T1}>
@@ -38,8 +55,7 @@ export default function Home() {
     <div className={Style.T1}> 
       <h2>Sobre a API da marvel</h2>
       <hr size="2" width="50%" align="left" color="black"/>
-      <br/>
-      <br/>
+  
       </div>
       <div/>
       
@@ -61,4 +77,3 @@ export default function Home() {
 
 }
 
-// gfv

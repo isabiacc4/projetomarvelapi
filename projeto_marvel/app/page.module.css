@@ -27,6 +27,7 @@
 }
 
 
+
 .parallax {
   background-image: url("../public/fundo10.jpg");
   background-attachment: fixed;
@@ -42,7 +43,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: yellow;
+  background-color: rgb(255, 213, 0);
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
   opacity: 0.7;
@@ -56,7 +57,7 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 5%;
-  font-weight: 800;
+  /* font-weight: 800; */
 
 }
 
