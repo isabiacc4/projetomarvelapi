@@ -1,3 +1,4 @@
+/* vhh */
 .rodape{
   background-color: black;
   border-right: 1px solid white;
@@ -27,7 +28,7 @@
 
 
 .parallax {
-  background-image: url("../public/fundo.jpg");
+  background-image: url("../public/fundos2.jpg");
   background-attachment: fixed;
   /* background-position: center; */
   background-repeat: no-repeat;
