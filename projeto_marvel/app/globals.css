@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.h1 {
+  text-shadow: 3px 3px #dbac03;
+  font-size: 3rem;
+}
+
+.cabecalho {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+button{
+  background-color: #dbac03;
+  border-radius: 5%;
+  border: none;
+  padding: 5%;
+}
+
+@media screen and (max-width: 480px){
+
+  .cabecalho{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav{
+    font-size: 1em;
+    width: 90%;
+  }
+
+}
