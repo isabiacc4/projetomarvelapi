@@ -3,11 +3,11 @@
   padding: 0;
 }
 
-
 .link {
   text-decoration: none;
   color: aliceblue;
 }
+
 
 .h1 {
   text-shadow: 3px 3px #dbac03;
@@ -36,16 +36,59 @@ button{
   padding: 5%;
 }
 
-@media screen and (max-width: 480px){
+.rodape{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
 
-  .cabecalho{
+.rodape_bloco2{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+
+  .cabecalho {
     display: flex;
     flex-direction: column;
+    width: 110%;
   }
 
-  .nav{
+  .nav {
     font-size: 1em;
     width: 90%;
   }
 
+  .title {
+    font-size: 0.9em;
+    /* padding: 20%; */
+    align-items: center;
+  }
+
+
+  .figcaption {
+    font-size: 1em;
+    margin-bottom: 10%;
+  }
+
+  .imagem {
+    height: 100%;
+    width: 100%;
+    margin-left: -1%;
+    padding: 3%;
+    margin-top: 5%;
+  }
+
+  .rodape{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.rodape_bloco2{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
 }
