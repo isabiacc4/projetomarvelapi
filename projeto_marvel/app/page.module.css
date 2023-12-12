@@ -1,49 +1,96 @@
+/* vhh */
 .rodape{
-    background-color: black;
-    border-right: 1px solid white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 3%;
-    color: aliceblue;
-    font-size: larger;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, 'Ubuntu', Cantarell, Open Sans, 'Helvetica Neue', sans-serif;
-  }
+  background-color: black;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3%;
+  color: aliceblue;
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, 'Ubuntu', Cantarell, Open Sans, 'Helvetica Neue', sans-serif;
+}
 
+.rodape_bloco1{
+  margin-top: 3%;
+
+}
+
+.rodape_bloco2{
+  font-size: 1em;
+  margin-top: 1%;
+}
+
+.div_apps{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.parallax {
+  background-image: url("../public/fundo10.jpg");
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
   
-  .rodape_bloco1{
-    margin-top: 3%;
-  }
+}
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 0.7;
+  padding: 10px;
+
+
+}
+
+.T1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  font-weight: 800;
+
+}
+
+.text{
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Segoe UI";
+  font-size: larger;
+}
+
+
+@media screen and (max-width: 640px) {
+ 
   .rodape_bloco2{
-    font-size: 1em;
-    margin-top: 1%;
+    font-size:0.75em;
   }
-  
-  .div_apps{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  
+}
 
-  @media screen and (max-width: 640px) {
 
-   
-    .rodape_bloco2{
-      font-size:0.75em;
-    }
+@media screen and (max-width: 455px) {
+  .rodape{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 5%;
   }
   
-  @media (max-width: 455px) {
-    .rodape{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    padding: 5%;
-    }
-    
-    .rodape_bloco2{
-      font-size:small;
-    }
+  .rodape_bloco2{
+    font-size:small;
   }
+
+  .centered{
+    top:30%
+  }
+
+
+}
