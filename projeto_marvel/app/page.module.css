@@ -26,15 +26,16 @@
   }
   
   
-  
+
   @media screen and (max-width: 640px) {
+
    
     .rodape_bloco2{
       font-size:0.75em;
     }
   }
   
-  @media screen and (max-width: 455px) {
+  @media (max-width: 455px) {
     .rodape{
     display: flex;
     flex-direction:column;
