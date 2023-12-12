@@ -27,7 +27,7 @@
 
 
 .parallax {
-  background-image: url("../public/fundos.jpg");
+  background-image: url("../public/fundo.jpg");
   background-attachment: fixed;
   /* background-position: center; */
   background-repeat: no-repeat;
@@ -90,5 +90,4 @@
   .centered{
     top:30%
   }
-
 }
