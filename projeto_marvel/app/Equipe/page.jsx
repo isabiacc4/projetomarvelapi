@@ -22,7 +22,6 @@ export default function Autor() {
                         Personagens
                     </Link>
 
-
                 </div>
             </div>
 
