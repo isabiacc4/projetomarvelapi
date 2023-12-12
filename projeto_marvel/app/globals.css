@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .link {
   text-decoration: none;
   color: aliceblue;
@@ -66,7 +65,7 @@ button{
     align-items: center;
   }
 
-  
+
   .figcaption {
     font-size: 1em;
     margin-bottom: 10%;

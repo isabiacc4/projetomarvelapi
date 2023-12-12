@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 import style from "@/app/page.module.css";
@@ -48,5 +50,6 @@ function Footer() {
     </div>
   );
 }
+
 
 export default Footer;

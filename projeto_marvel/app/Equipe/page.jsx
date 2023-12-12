@@ -1,3 +1,5 @@
+'use client'
+
 import Footer from "@/components/Footer";
 import style from "../Equipe/page.module.css";
 import Image from "next/image";
