@@ -41,5 +41,6 @@ export default function Expositiva() {
       </div>
       <Footer />
     </div>
+    
   );
 }

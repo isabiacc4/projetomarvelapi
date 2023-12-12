@@ -102,7 +102,6 @@ function Explicativa() {
           </div>
 
 
-
         </div>
         <h1 className={style.titulo}>Personagens do Universo Marvel</h1>
 
