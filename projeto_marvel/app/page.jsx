@@ -30,7 +30,7 @@ export default function Home() {
      </>
 
       <div className={Style.parallax}/>
-      <div className={Style.centered}> API DA MARVEL</div>
+      <div className={Style.centered}><Link href="https://developer.marvel.com">API DA MARVEL</Link></div>
 
       <br />
 
