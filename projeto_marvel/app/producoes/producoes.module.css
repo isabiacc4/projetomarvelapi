@@ -68,13 +68,11 @@
 
  @media (max-width: 560px){
      .textintro {
-        margin: 40px 150px;
+        margin: 40px 45px;
         font-size: large;
        justify-content: flex-start;
        text-align: left;
     
      }
- 
- 
  
     }
