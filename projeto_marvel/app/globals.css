@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1%;
+  width: auto;
 }
 
 .nav {
@@ -52,7 +53,7 @@ button{
   .cabecalho {
     display: flex;
     flex-direction: column;
-    width: 110%;
+    width: 98%;
   }
 
   .nav {
