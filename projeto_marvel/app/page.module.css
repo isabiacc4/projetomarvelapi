@@ -57,8 +57,11 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 5%;
-  /* font-weight: 800; */
+  
+}
 
+.linkapi{
+  color:black;
 }
 
 .text{

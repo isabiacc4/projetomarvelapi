@@ -15,8 +15,8 @@ export default function Autor() {
                 </Link>
 
                 <div className="nav">
-                    <Link href="/autores" className="link">
-                        Autor
+                    <Link href="/autor" className="link">
+                        Autores
                     </Link>
                     <Link href="/producoes" className="link">
                         Produções
