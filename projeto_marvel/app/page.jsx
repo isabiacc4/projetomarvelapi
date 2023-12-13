@@ -21,7 +21,7 @@ export default function Home() {
 
         <Link href="/expositiva" className="link">Personagens</Link>
 
-        <Link href="/equipe" className="link">
+        <Link href="/Equipe" className="link">
           <button className="button">EQUIPE</button>
         </Link>
       </div>

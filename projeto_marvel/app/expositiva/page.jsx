@@ -21,7 +21,7 @@ export default function Expositiva() {
             Produções
           </Link>
 
-          <Link href="/equipe" className="link">
+          <Link href="/Equipe" className="link">
             <button className="button">EQUIPE</button>
           </Link>
         </div>

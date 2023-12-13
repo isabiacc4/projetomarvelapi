@@ -19,7 +19,7 @@ export default function Autor() {
             Personagens
           </Link>
 
-          <Link href="/" className="link">
+          <Link href="/Equipe" className="link">
             <button className="button">EQUIPE</button>
           </Link>
         </div>
