@@ -134,7 +134,7 @@ function Explicativa() {
                   </h3>
                   <p>
                     Este personagem teve participação em{" "}
-                    {ironCharacter.comics.available} comics/HQ's.
+                    {ironCharacter.comics.available} comics/HQs.
                   </p>
                   <br />
                   <h3>
@@ -184,7 +184,7 @@ function Explicativa() {
                     </h3>
                     <p>
                       Este personagem teve participação em{" "}
-                      {gwenCharacter.comics.available} comics/HQ's.
+                      {gwenCharacter.comics.available} comics/HQs.
                     </p>
                     <br />
                     <h3>
@@ -232,7 +232,7 @@ function Explicativa() {
                     </h3>
                     <p>
                       Este personagem teve participação em{" "}
-                      {tempestadeCharacter.comics.available} comics/HQ's.
+                      {tempestadeCharacter.comics.available} comics/HQs.
                     </p>
                     <br />
                     <h3>
@@ -283,7 +283,7 @@ function Explicativa() {
                     </h3>
                     <p>
                       Este personagem teve participação em{" "}
-                      {wolCharacter.comics.available} comics/HQ's.
+                      {wolCharacter.comics.available} comics/HQs.
                     </p>
                     <br />
                     <h3>
