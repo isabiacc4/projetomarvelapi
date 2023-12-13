@@ -70,7 +70,7 @@ export default function Autor() {
             <div className={style.flipcardback}>
               <h1>Jack Kirby</h1>
               <p>
-                Conhecido como "Rei" dos quadrinhos, Kirby colaborou com Stan
+                Conhecido como Rei dos quadrinhos, Kirby colaborou com Stan
                 Lee na criação de muitos personagens e é amplamente reconhecido
                 por seu trabalho inovador e influente nos quadrinhos.
               </p>

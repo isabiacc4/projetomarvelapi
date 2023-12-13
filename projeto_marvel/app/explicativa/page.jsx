@@ -112,10 +112,7 @@ function Explicativa() {
             <ul className={style.ul_exp}>
               {iron.map((ironCharacter) => (
                 <li key={ironCharacter.id}>
-                  {/* <p>{ironCharacter.description}</p>
-                  <p>{ironCharacter.comics}</p>
-                  <p>{ironCharacter.stories}</p>
-                  <p>{ironCharacter.series}</p> */}
+                 
 
                   <Image
                     src={`${ironCharacter.thumbnail.path}.${ironCharacter.thumbnail.extension}`}
